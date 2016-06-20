@@ -1,0 +1,20 @@
+<div class="row">
+	<form class="col s12">
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="ramal" [(ngModel)]="inputPesquisa" type="text" class="validate" required>
+				<label for="ramal">Digite o ramal</label>
+			</div>
+		</div>
+	</form>
+</div>
+        
+<div class="collection with-header">
+	<div class="collection-header center-align"><h4>Ramais</h4></div>
+	<a href="#!" class="collection-item" *ngFor="let ramal of ramais  | search:inputPesquisa" (click)="consoleRamais(ramal)" >
+		<span class="title center-align"><h6>{{ramal.setor}}</h6></span>
+		<p>Número: {{ramal.numero}}<br>
+		   Responsável: {{ramal.responsavel}}	
+		</p>
+	</a>
+</div>

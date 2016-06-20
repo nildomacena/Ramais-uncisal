@@ -1,0 +1,58 @@
+{
+  "ramal": [
+    {
+      "id": 1,
+      "setor": "SECARP",
+      "numero": 3222,
+      "responsavel": "Denise"
+    },
+    {
+      "id": 2,
+      "setor": "GLOG",
+      "numero": 3232,
+      "responsavel": "Anne"
+    },
+    {
+      "id": 3,
+      "setor": "GEFIN",
+      "numero": 3223,
+      "responsavel": "Paulo"
+    },
+    {
+      "id": 4,
+      "setor": "PROGAD",
+      "numero": 3226,
+      "responsavel": "John"
+    },
+    {
+      "id": 5,
+      "setor": "PROGESP",
+      "numero": 3229,
+      "responsavel": "Beltrana"
+    },
+    {
+      "id": 6,
+      "setor": "SUFCONT",
+      "numero": 3220,
+      "responsavel": "Fulana"
+    },
+    {
+      "id": 7,
+      "setor": "BLABLA",
+      "numero": 3221,
+      "responsavel": "Blablaba"
+    },
+    {
+      "id": 8,
+      "setor": "SECOT",
+      "numero": 3233,
+      "responsavel": "Denise"
+    },
+    {
+      "id": 10,
+      "setor": "Gabinete",
+      "numero": 3234,
+      "responsavel": "Reitor"
+    }
+  ]
+}

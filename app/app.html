@@ -1,0 +1,35 @@
+<header>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Uncisal</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a [routerLink]="['Login']" >Login</a></li>
+        <li><a [routerLink]="['Ramais']" >Cadastrar ramal</a></li>
+        <li><a href="#">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="row">
+      <div class="col l4 offset-l4 m6 offset-m3 s12">
+          <h3 class="center-align" >Ramais Uncisal</h3>
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="col l6 s12">
+      <h5>Aplicativo desenvolvido por Ednildo Macena</h5>
+      <p class="content-footer">Encontrou algum erro? Entre em contato através do email ednildo@outlook.com.br</p>
+    </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2016 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+</footer>
